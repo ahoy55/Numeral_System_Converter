@@ -145,7 +145,7 @@ files:
         }
     }
   learner_created: false
-- name: src/converter/Main.java
+- name: src/converter/notMain.java
   visible: true
   text: |
     package converter;
@@ -192,9 +192,18 @@ files:
         }
     }
   learner_created: true
-- name: src/converter/Converter.java
+- name: src/converter/Main.java
+  visible: true
+  learner_created: true
+- name: src/converter/notConverter.java
+  visible: true
+  learner_created: true
+- name: src/converter/RadixConverter.java
+  visible: true
+  learner_created: true
+- name: src/converter/RadixConv.java
   visible: true
   learner_created: true
 feedback_link: https://hyperskill.org/projects/41/stages/218/implement
-status: Failed
+status: Solved
 record: 5
